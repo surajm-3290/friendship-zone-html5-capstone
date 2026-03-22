@@ -30,4 +30,4 @@ This project consists of 5 interconnected HTML pages:
 ## How to Run the Project
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/your-username/friendship-zone-html5-capstone.git](https://github.com/your-username/friendship-zone-html5-capstone.git)
+   git clone [https://github.com/surajm-3290/friendship-zone-html5-capstone.git](https://github.com/surajm-3290/friendship-zone-html5-capstone.git)
