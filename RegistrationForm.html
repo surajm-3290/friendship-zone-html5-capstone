@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <section>
+        <img src="Friends.PNG" alt="Imgage is not aviable Right Now">
+        <h1 style="text-align: center;">Friend Zone</h1>
+    </section>
+    <section>
+        <h3>Add your details to register</h3>
+        <form action="/RegistrationConfirmation.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" minlength="3" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" required>
+
+            <p>Gender:</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+
+            <br><br>
+            <label for="about">About:</label>
+            <textarea id="about" name="about"></textarea>
+
+            <label for="number">Phone:</label>
+            <input type="tel" id="number" name="phone">
+
+            <p>Interested in:</p>
+            <input type="checkbox" name="interest" id="friendship" value="friendship">
+            <label for="friendship">Friendship</label>
+            <input type="checkbox" name="interest" id="dating" value="dating">
+            <label for="dating">Dating</label>
+
+            <br><br>
+            <input type="file" name="userfile">
+            
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="submit" value="Register as Admin" formaction="/RegistrationConfirmationforAdmin.html">
+        </form>
+    </section>
+</body>
+</html>
